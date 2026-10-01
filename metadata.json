@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Velours — Haute Pâtisserie & Couture Cakes",
+  "description": "Atelier Velours crafts bespoke couture celebration cakes and artisanal French pâtisserie using single-origin Grand Cru cacao and rare botanicals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

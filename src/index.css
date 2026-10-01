@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --color-cream-50: #FAF6F0;
+  --color-cream-100: #F6EFE6;
+  --color-cream-200: #EADDCF;
+  --color-cream-300: #D8C3AE;
+  --color-espresso-950: #1B0E0B;
+  --color-espresso-900: #251410;
+  --color-espresso-800: #331C16;
+  --color-espresso-700: #4A2A22;
+  --color-taupe-500: #8D786A;
+  --color-taupe-400: #A89587;
+  --color-gold-400: #D4AF37;
+  --color-gold-500: #C59B27;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #F6EFE6;
+  color: #241712;
+  overflow-x: hidden;
+}
+
+.font-serif-display {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Custom tactile background texture */
+.bg-noise-light {
+  background-image: radial-gradient(rgba(43, 23, 18, 0.035) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.bg-noise-dark {
+  background-image: radial-gradient(rgba(246, 239, 230, 0.04) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F6EFE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #A89587;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4A2A22;
+}
